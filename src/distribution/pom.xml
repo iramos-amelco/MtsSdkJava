@@ -75,7 +75,7 @@
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.6.8</version>
+                <version>1.7.0</version>
                 <extensions>true</extensions>
                 <configuration>
                     <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
@@ -86,7 +86,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-install-plugin</artifactId>
-                <version>2.4</version>
+                <version>3.1.3</version>
                 <executions>
                     <execution>
                         <id>default-install</id>
@@ -98,7 +98,7 @@
             <!-- Deletes -->
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
-                <version>3.0.0</version>
+                <version>3.4.0</version>
                 <configuration>
                     <filesets>
                         <fileset>
@@ -110,7 +110,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.0.0-M1</version>
+                <version>3.10.0</version>
                 <executions>
                     <execution>
                         <id>javadoc-jar</id>
@@ -172,7 +172,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
+                <version>3.13.0</version>
                 <configuration>
                     <compilerVersion>1.7</compilerVersion>
                     <compilerArguments>
@@ -184,7 +184,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>2.10</version>
+                <version>3.8.0</version>
                 <executions>
                     <!-- Copy project dependency -->
                     <execution>
@@ -236,7 +236,7 @@
             <plugin>
                 <groupId>com.coderplus.maven.plugins</groupId>
                 <artifactId>copy-rename-maven-plugin</artifactId>
-                <version>1.0</version>
+                <version>1.0.1</version>
                 <executions>
                     <!-- Copy the SDK jars in the deploy folder to a more user-friendly name -->
                     <execution>
@@ -356,7 +356,7 @@
 
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>3.7.1</version>
                 <configuration>
                     <appendAssemblyId>false</appendAssemblyId>
                 </configuration>
